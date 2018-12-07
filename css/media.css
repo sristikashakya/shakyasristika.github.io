@@ -1,0 +1,209 @@
+@media screen and (max-width: 768px){
+.wrapper{
+    width: 100%;
+}
+.header-wrapper{
+    width: 100%;
+}
+.body-wrapper{
+    width: 100%;
+}
+.header-wrapper-center{
+    width: 100%;
+}
+.top-header{
+    width: 100%;
+}
+.top-left-header{
+    width: 50%;
+}
+.top-right-header{
+    width: 50%;
+}
+.mid-header{
+    display: none;
+}
+.bottom-left-header{
+    width: 100%;
+    text-align: center;
+    float: none;
+}
+.bottom-right-header{
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.right-welcome-wrapper{
+    width: 100%;
+    position: unset;
+    text-align: center;
+}
+.left-welcome-wrapper{
+    width: 90%;
+    text-align: center;
+    float: none;
+}
+}
+@media screen and (max-width: 480px){
+.wrapper{
+    width: 100%;
+}
+.header-wrapper{
+    width: 100%;
+}
+.body-wrapper{
+    width: 100%;
+}
+.header-wrapper-center{
+    width: 100%;
+    margin: 0 auto;
+}
+.slider-wrapper{
+    display: none;
+}
+.footer-wrapper{
+    width: 100%;
+}
+.footer-wrapper-center{
+    width: 100%;
+    margin:0 auto;
+}
+.content-wrapper-center{
+    width: 100%;
+    margin: 0 auto;
+}
+.top-left-header{
+    float: none;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.mid-header{
+    display: none;
+}
+.top-right-header{
+    float: none;
+    width:100%;
+    margin-top: 24px;
+}
+.bottom-left-header{
+    float: none;
+    width: 100%;
+}
+.bottom-right-header{
+    float: none;
+    text-align: center;
+    width:100%;
+}
+.description{
+    padding-left: 16px;
+}
+.text-box{
+    border: none;
+    padding: 9px 18px;
+    margin: 17px 2px;
+}
+.button{
+    padding: 9px 18px;
+    margin: 17px 2px;
+}
+.bottom-right-header{
+   margin: 17px 13px;
+}
+.right-welcome-wrapper{
+    display: none;
+}
+.left-welcome-wrapper{
+    width: 100%;
+    float: none;
+    margin-top: 69px;
+    margin-bottom: 41px;    
+}
+.welcome-wrapper{
+    width: 100%;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+.left-main-item{
+    float: left;
+    margin-left: 10px;
+}
+.right-main-item{
+    float: right;
+}
+.position{
+    width: 80%;
+    float:left;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.position img{
+    margin: 23px;
+}
+.item-description{
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+.offer-box{
+    width: 85%;
+    float: none;
+    margin: 20px;
+    text-align: center;
+}
+.discount-offer{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.best-sellers{
+  width: 100%;
+  float: left;
+}
+.abouts{
+  width: 100%;
+  float: left;
+  margin: 10px;
+}
+.latest-news{
+  width: 100%;
+  float: left;
+  margin-left: 10px;
+}
+.best-sellers-item{
+  float: left;
+  width: 43.77966%;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+.top-footer-column{
+  float: left;
+  color: white;
+}
+.top-footer-column h2{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.navigation{
+    width: 45%;
+}
+.newsletter{
+    width:45%;
+    margin-right: 17px;
+}
+.about-us{
+    width: 45%;
+}
+.latest-tweet{
+    width: 45%;
+    margin-right: 12px;
+}
+.small-sale{
+    right: 66px;
+}
+.bottom-footer ul li{
+    display: block;
+}
+}

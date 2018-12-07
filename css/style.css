@@ -1,0 +1,354 @@
+.wrapper{
+    background: url("../images/background.png");
+}
+.mid-header{
+    text-align: center;
+}
+.footer-wrapper{
+    background-color: rgb(44, 40, 40);
+}
+.top-right-header{
+    text-align: right;
+    font-size: 14px;
+}
+.top-right-header li a{
+    text-decoration: none;
+    color: rgb(44, 40, 40);
+}
+.top-right-header li a:active{
+    color: #c80939;
+}
+ul{
+    list-style-type: none;
+}
+.top-right-header ul li{
+    display: inline;
+    background-image: url("../images/top-left-header-border.png");
+    background-position: right;
+    background-size: 1px 7px;
+    background-repeat: no-repeat;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.top-right-header li:last-child{
+    background-image: none;
+}
+.description{
+    color: #c80939;
+    font-size: 12px;
+}
+.button {
+    background-color: #c80939;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+}
+.forget{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    text-decoration: none;
+    color: #c80939;
+}
+.password{
+    position: relative;
+}
+.bottom-left-header ul li{
+    display: inline;
+    line-height: 62px;
+}
+.bottom-left-header ul li a{
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 23px;
+    font-size: 20px;
+}
+.bottom-left-header li a:hover{
+    color:white;
+    background-color: rgb(46, 44, 44);
+    box-shadow: 1px 1px 2px 2px rgb(77, 76, 76);
+}
+.search-box{
+    border: none;
+    cursor: pointer;
+    background-image: url("../images/search.png") no-repeat left;
+}
+.left-welcome-wrapper p{
+    font-size: 12px;
+    text-align: center;
+}
+.welcome-message{
+    text-align: center;
+    font-size: 18px;
+    padding-left: 32px;
+}
+.right-welcome-wrapper{
+    position: absolute;
+}
+.laptop{
+   position: relative; 
+   z-index: 1;
+}
+li.tablet{
+    position: relative;
+    z-index: 2;
+    margin-left: 260px;
+    margin-top: -235px;
+}
+li.iphone{
+    position: relative;
+    z-index: 3;
+    margin-left: 400px;
+    margin-top: -119px;
+}
+.right-main-item a{
+    text-decoration: none;
+    color: black;
+}
+.striped{
+    background-color: white;
+}
+.polka{
+    background-color: white;
+    margin-left:25px;
+    margin-right: 25px;
+    position: relative;
+}
+.sale{
+    position: absolute;
+    right: 152px;
+    bottom: 266px;
+}
+.basic{
+    margin-right: 25px;
+    background-color: white;
+}
+.colourful{
+    background-color: white;
+}
+.dot-dress{
+    background-color: white;
+}
+.sweater{
+    background-color: white;
+    margin-left:25px;
+    margin-right: 25px;
+}
+.basic-white{
+    margin-right: 25px;
+    background-color: white;
+}
+.summer-dress{
+    background-color: white;
+}
+.item-description{
+    text-align: center;
+}
+.original-price{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: gray;
+}
+.position:hover{
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.position h3{
+    color: #c80939;
+}
+.discount-offer{
+    background: url("../images/blue-background.png");
+    color: white;
+}
+.sale-offer{
+    background: url("../images/green-background.png");
+    color:white;
+}
+.offer-box{
+    background-repeat: no-repeat;
+}
+.offer-box:hover{
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.offer-box h3{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+.offer-box p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+.new-offer{
+    background: url("../images/orange-background.png");
+    color:white;
+}
+.published-date li{
+    display: inline;
+    background-image: url("../images/top-left-header-border.png");
+    background-position: right;
+    background-size: 1px 7px;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+    color: rgb(117, 114, 114);
+    font-size: 15px;
+}
+.published-date li:last-child{
+    background-image: none;
+    padding-left: 15px;
+}
+.latest-news{
+    line-height: 24px;
+}
+.news h4{
+    font-size: 20px;
+    color: #cb5f5f;
+    font-weight: normal;
+}
+.news p{
+    font-size: 15px;
+}
+.read-more a{
+    text-decoration: none;
+    color: #c80939;
+    font-weight: bold;
+}
+.news-wrapper p{
+    color: rgb(46, 44, 44);
+    font-size: 15px;
+}
+.latest-news-item{
+    font-size: 22px;
+}
+.best-sellers-item{
+    position: relative;
+}
+.best-sellers-item:hover{
+    box-shadow: 2px 2px 3px 3px rgb(172, 170, 170);
+}
+.best-sellers-item img{
+    margin: 8px;
+}
+.small-sale{
+    position: absolute;
+    bottom: 110px;
+    right: 63px;
+}
+.abouts h1{
+    background: url("../images/abouts-phone.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    margin-bottom: 16px;
+    color: rgb(46, 44, 44);
+}
+.abouts h4{
+    background-image: url("../images/abouts-msg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    color: rgb(46, 44, 44);
+}
+.navigation li{
+    background: url("../images/pink-dot.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 12px;
+}
+.latest-tweet li{
+    background: url("../images/twitter-icon.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+.latest-tweet li a{
+    text-decoration: none;
+    color: #c80939;
+}
+.small-search-box{
+    border: none;
+    background-color: lightgray;
+    padding: 9px 30px;
+    margin: 17px 2px;
+}
+.search-here{
+    position: relative;
+}
+.small-msg{
+    position: absolute;
+    left: 14px;
+    top: 5px;
+}
+.circle-icons ul li{
+    display: inline;
+}
+.circle-icons ul{
+    margin-top: 10px;
+}
+.square-icons ul li{
+    display: inline;
+    padding: 1px;
+}
+.bottom-footer{
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+.bottom-footer ul li{
+    display: inline;
+    padding-right: 16px;
+    margin-top: 10px;
+    background-image: url("../images/border1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bottom-footer ul li:last-child{
+    background-image: none;
+}
+.top-footer-column p{
+    line-height: 25px;
+    font-size: 15px;
+}
+.top-footer-column ul{
+    line-height: 25px;
+    font-size: 15px;
+}
+.carousel-container{
+    width: 960px;
+    overflow: hidden;
+  }
+  #carousel-slide{
+    width: 28800px;
+    height: 500px;
+  
+  }
+  #carousel-slide img{
+    float: left;
+    width: 960px;
+    height: 500px;
+  }
+  .slider-text-bottom {
+    background: #cc003e;
+    color: white;
+}
+.slider-text-bottom p {
+    text-overflow: ellipsis;
+}
+.slider-text-bottom p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    padding-right: 10px;
+    background-image: url("../img/Readmore-plus.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+  

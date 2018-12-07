@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clr:before, .clr:after {
+    content: "";
+    display: table;
+}
+
+.clr:after {
+    clear: both;
+}
